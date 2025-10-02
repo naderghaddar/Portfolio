@@ -37,7 +37,7 @@ export default function Home() {
           className="text-gray-300 hover:text-purple-400 transition">
           <FaGithub />
         </a>
-        <a href="mailto:YOUR@EMAIL.com" className="text-gray-300 hover:text-purple-400 transition">
+        <a href="mailto:naderghaddar03@gmail.com" className="text-gray-300 hover:text-purple-400 transition">
           <FaEnvelope />
         </a>
       </div>

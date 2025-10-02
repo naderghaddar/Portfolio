@@ -14,10 +14,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",   // replace with your EmailJS service ID
-        "YOUR_TEMPLATE_ID",  // replace with your EmailJS template ID
+        "service_3z7rkxa",   // replace with your EmailJS service ID
+        "template_vxry8dh",  // replace with your EmailJS template ID
         formRef.current!,
-        "YOUR_PUBLIC_KEY"    // replace with your EmailJS public key
+        "_IP6-g3nVaZkQ8EXN"    // replace with your EmailJS public key
       )
       .then(
         () => {
@@ -95,7 +95,7 @@ export default function Contact() {
       {/* Social Links */}
       <div className="relative flex space-x-6 mt-10 text-2xl">
         <a
-          href="https://www.linkedin.com/in/your-linkedin"
+          href="https://www.linkedin.com/in/nader-ghaddar"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-purple-400 transition"
@@ -103,7 +103,7 @@ export default function Contact() {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/your-github"
+          href="https://github.com/naderghaddar"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-purple-400 transition"
@@ -111,10 +111,11 @@ export default function Contact() {
           <FaGithub />
         </a>
         <a
-          href="mailto:your@email.com"
+          href="mailto:naderghaddar03@gmail.com"
           className="text-gray-400 hover:text-purple-400 transition"
         >
           <FaEnvelope />
+          <span className="sr-only">Email</span>
         </a>
       </div>
     </section>
