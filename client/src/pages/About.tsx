@@ -25,7 +25,9 @@ export default function About() {
             My journey began
             in childhood when I developed a fascination with technology—it started with playing video games and
             often spending hours experimenting with computers and learning
-            how things work under the hood.
+            how things work under the hood, it also lead to an interest in aerospace technology when I joined
+            the Royal Canadian Air Cadets when I was 12 years old, where I learned about aviation, leadership, and discipline.
+            This early exposure sparked my curiosity and set me on a path toward a career in tech.
           </p>
           <p>
             Beyond academics, I’ve always lived an active lifestyle. 
