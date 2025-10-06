@@ -24,9 +24,9 @@ const projects = [
   {
     title: "Chess Engine",
     description:
-      "A chess engine implementing algorithms like Minimax and Alpha-Beta pruning, with a focus on search optimization and AI-driven gameplay.",
+      "Python-based chess engine developed from scratch to strengthen algorithmic and problem-solving skills. Implements efficient move generation, Minimax search with Alpha-Beta pruning, and a evaluation system for strategic decision-making.",
     image: "https://via.placeholder.com/600x400",
-    tags: ["Python", "C++", "Algorithms", "AI"],
+    tags: ["Python", "Algorithms", ],
     github: "https://github.com/yourusername/chess-engine",
     demo: "#",
   },
